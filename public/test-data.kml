@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Líneas de Transmisión - Datos de Prueba</name>
+    <description>Archivo de prueba con líneas eléctricas, estructuras y subestaciones en Chile</description>
+
+    <!-- Línea 1: Santiago - Valparaíso -->
+    <Placemark>
+      <name>Línea 220kV-01</name>
+      <description>Línea de transmisión 220kV Santiago-Valparaíso</description>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          -70.6693,-33.4489,0
+          -70.7000,-33.3500,0
+          -70.8500,-33.2000,0
+          -71.0000,-33.1000,0
+          -71.2000,-33.0500,0
+          -71.5000,-33.0200,0
+          -71.6197,-33.0472,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Línea 2: Santiago - Rancagua -->
+    <Placemark>
+      <name>Línea 220kV-02</name>
+      <description>Línea de transmisión 220kV Santiago-Rancagua</description>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          -70.6693,-33.4489,0
+          -70.7200,-33.6000,0
+          -70.7500,-33.8000,0
+          -70.7400,-34.1000,0
+          -70.7475,-34.1704,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Subestación Santiago Centro -->
+    <Placemark>
+      <name>S/E Santiago Centro</name>
+      <description>Subestación principal Santiago Centro</description>
+      <ExtendedData>
+        <Data name="subestacion">
+          <value>Santiago Centro</value>
+        </Data>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.6693,-33.4489,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Subestación Valparaíso -->
+    <Placemark>
+      <name>S/E Valparaíso</name>
+      <description>Subestación Valparaíso</description>
+      <ExtendedData>
+        <Data name="subestacion">
+          <value>Valparaíso</value>
+        </Data>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-71.6197,-33.0472,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Subestación Rancagua -->
+    <Placemark>
+      <name>S/E Rancagua</name>
+      <description>Subestación Rancagua</description>
+      <ExtendedData>
+        <Data name="subestacion">
+          <value>Rancagua</value>
+        </Data>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7475,-34.1704,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Estructuras Línea 220kV-01 -->
+    <Placemark>
+      <name>Estructura T-001</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-001</value>
+        </Data>
+        <Data name="km">
+          <value>0.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.6693,-33.4489,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-002</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-002</value>
+        </Data>
+        <Data name="km">
+          <value>5.2</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7000,-33.3500,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-003</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-003</value>
+        </Data>
+        <Data name="km">
+          <value>15.8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.8500,-33.2000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-004</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-004</value>
+        </Data>
+        <Data name="km">
+          <value>28.5</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-71.0000,-33.1000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-005</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-005</value>
+        </Data>
+        <Data name="km">
+          <value>42.3</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-71.2000,-33.0500,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-006</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-006</value>
+        </Data>
+        <Data name="km">
+          <value>68.9</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-71.5000,-33.0200,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura T-007</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-01</value>
+        </Data>
+        <Data name="estructura">
+          <value>T-007</value>
+        </Data>
+        <Data name="km">
+          <value>82.4</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-71.6197,-33.0472,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Estructuras Línea 220kV-02 -->
+    <Placemark>
+      <name>Estructura R-001</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+        <Data name="estructura">
+          <value>R-001</value>
+        </Data>
+        <Data name="km">
+          <value>0.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.6693,-33.4489,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura R-002</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+        <Data name="estructura">
+          <value>R-002</value>
+        </Data>
+        <Data name="km">
+          <value>18.5</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7200,-33.6000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura R-003</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+        <Data name="estructura">
+          <value>R-003</value>
+        </Data>
+        <Data name="km">
+          <value>42.7</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7500,-33.8000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura R-004</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+        <Data name="estructura">
+          <value>R-004</value>
+        </Data>
+        <Data name="km">
+          <value>78.2</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7400,-34.1000,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Estructura R-005</name>
+      <ExtendedData>
+        <Data name="linea">
+          <value>220kV-02</value>
+        </Data>
+        <Data name="estructura">
+          <value>R-005</value>
+        </Data>
+        <Data name="km">
+          <value>86.3</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-70.7475,-34.1704,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
